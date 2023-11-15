@@ -342,7 +342,7 @@ function getSumOfDigits(num) {
 function isPowerOfTwo(num) {
   let numTwo = 2;
   while (numTwo < num) {
-    numTwo **= 2;
+    numTwo *= 2;
   }
   if (numTwo === num) {
     return true;
