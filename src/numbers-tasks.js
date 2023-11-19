@@ -50,11 +50,7 @@ function getCircleCircumference(radius) {
  *  -3, 3  => 0
  */
 function getAverage(/* value1, value2 */) {
-  // let sum = 0;
-  // for (arg of arguments) {
-  //   sum += arg;
-  // };
-  // return sum / 2;
+  // return (value1 + value2) / 2;
   throw new Error('Not implemented');
 }
 
@@ -360,8 +356,8 @@ function isPowerOfTwo(num) {
  *   0 => 0
  *   Math.PI / 2 => 1
  */
-function getSine(/* num */) {
-  throw new Error('Not implemented');
+function getSine(num) {
+  return Math.sin(num);
 }
 
 /**
